@@ -1,0 +1,21 @@
+{
+  "name": "video-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Style-cloning social video pipeline",
+  "scripts": {
+    "studio": "remotion studio remotion/src/index.ts",
+    "render": "remotion render remotion/src/index.ts Video out/final.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.520",
+    "@remotion/google-fonts": "4.0.520",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.520"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.7.2"
+  }
+}

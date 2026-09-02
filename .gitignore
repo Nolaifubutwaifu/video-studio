@@ -47,3 +47,6 @@ styles/*/frames/
 # ---- Explicitly KEPT (the committed style artifacts) ----
 !styles/**/profile.json
 !styles/**/style-notes.md
+
+# Remotion render props are per-project state, not source
+remotion/src/default-props.json

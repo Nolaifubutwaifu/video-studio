@@ -1,0 +1,46 @@
+{
+  "name": "default",
+  "_comment": "Baseline vertical-social style. /style-learn overwrites these values with ones measured from your reference videos; this file documents the schema and is the fallback when no style has been learned yet.",
+  "format": { "width": 1080, "height": 1920, "fps": 30 },
+  "pacing": {
+    "wpm": 165,
+    "avg_shot_sec": 2.5,
+    "cuts_per_min": 24,
+    "max_silence_sec": 0.35
+  },
+  "script": {
+    "hook_formula": "Open with a concrete claim or a number, never a greeting.",
+    "structure": ["hook", "stakes", "three points", "cta"],
+    "avg_sentence_words": 9,
+    "target_duration_sec": 45,
+    "vocabulary": [],
+    "cta_pattern": "Follow for more.",
+    "locale": "en-AU"
+  },
+  "captions": {
+    "mode": "word-highlight",
+    "font": "Inter",
+    "weight": 900,
+    "case": "upper",
+    "sizePct": 4.6,
+    "yPct": 68,
+    "maxWordsOnScreen": 3,
+    "fill": "#FFFFFF",
+    "highlight": "#FFE01A",
+    "highlightBox": null,
+    "stroke": { "color": "#000000", "widthPct": 0.35 },
+    "shadow": "0 6px 18px rgba(0,0,0,0.45)",
+    "enter": "pop",
+    "lineHeight": 1.15,
+    "marginPct": 7
+  },
+  "graphics": {
+    "titleCard": false,
+    "titleCardSec": 2.0,
+    "progressBar": false,
+    "progressBarColor": "#FFE01A"
+  },
+  "broll": { "ratio_pct": 0, "avg_clip_sec": 1.8 },
+  "audio": { "lufs": -14 },
+  "grade": { "saturation": 1.05, "contrast": 1.03 }
+}
