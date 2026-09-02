@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------
+# THIS REPO IS PUBLIC. Media never gets committed.
+# Downloaded references are copyrighted third-party material and
+# are analysis input only.
+# ---------------------------------------------------------------
+
+# Raw + intermediate media
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.wav
+*.mp3
+*.aac
+
+# Working directories
+media/
+projects/*/raw/
+projects/*/work/
+projects/*/out/
+out/
+.cache/
+references/
+
+# Whisper / analysis intermediates (regenerable, large)
+*.words.json
+projects/*/words.json
+
+# Node / Remotion
+node_modules/
+remotion/out/
+.remotion/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# Contact sheets are frames of third-party videos. Derived descriptions
+# (profile.json / style-notes.md) are fine to commit; the frames are not.
+styles/*/frames/
+
+# ---- Explicitly KEPT (the committed style artifacts) ----
+!styles/**/profile.json
+!styles/**/style-notes.md
