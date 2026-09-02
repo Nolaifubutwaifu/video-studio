@@ -16,10 +16,13 @@
 
 # Working directories
 media/
-projects/*/raw/
-projects/*/work/
-projects/*/out/
 out/
+
+# Per-video projects stay local in their entirety. They hold your takes and
+# your scripts, and this repo is public -- there is no version of committing
+# them that is safe by default.
+projects/*
+!projects/.gitkeep
 .cache/
 references/
 
