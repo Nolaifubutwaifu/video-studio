@@ -1,0 +1,132 @@
+{
+  "name": "mascot-explainer",
+  "_comment": "Learned from ONE reference (an illustrated mascot explainer reel). Values marked in style-notes.md as single-source should be re-checked when more references are added. Sections after 'grade' (scenes, mascot, labels, layout) describe the illustrated-scene format; the talking-head renderer ignores them.",
+  "format": { "width": 1080, "height": 1920, "fps": 30 },
+  "pacing": {
+    "wpm": 200,
+    "avg_shot_sec": 4.8,
+    "cuts_per_min": 7,
+    "max_silence_sec": 0.2,
+    "visual_change_every_sec": 1.1,
+    "visual_change_every_words": 3.5
+  },
+  "script": {
+    "hook_formula": "A 'How to <outcome> <situation>?' question shown as a handwritten title card, followed by 'Explained by <Mascot>'. Then a third-person setup line about the mascot's situation.",
+    "structure": [
+      "title-card question hook + 'Explained by <Mascot>'",
+      "setup: the mascot's situation in the third person, ending on the problem",
+      "4 to 6 steps signposted First / Now / Next / Then / Finally",
+      "each step: an instruction, 3 to 4 concrete examples, then a one-line moral in the metaphor",
+      "payoff: '<Mascot> now knows exactly ...'",
+      "comment-keyword CTA using the metaphor word",
+      "pun sign-off that reuses the metaphor"
+    ],
+    "avg_sentence_words": 8,
+    "target_duration_sec": 60,
+    "voice": [
+      "narrate the mascot in the third person by name; give the viewer second-person instructions",
+      "pick ONE running metaphor from the mascot's world and never break it (reference: money = bones, household = the pack, home = doghouse)",
+      "short declarative and imperative sentences; no greeting, no self-introduction"
+    ],
+    "vocabulary": ["First", "Now", "Next", "Then", "Finally", "the pack"],
+    "hook_examples": [
+      "How to budget your paycheck after moving in together? Explained by Doggy",
+      "Doggy and partner just moved in together. Two paychecks, one home. And suddenly Doggy has way more bones to pay for."
+    ],
+    "moral_examples": [
+      "Give those bones a job before they disappear.",
+      "No asking where did all your bones go."
+    ],
+    "cta_pattern": "If you <have the problem>, comment <metaphor word> and <Mascot> will send you <resource>. Now go <outcome> without <metaphor pun>.",
+    "cta_examples": [
+      "If you don't know how to set up a budget, comment bones and Doggy will send you his budgeting app to help track your expenses. Now go build your new home without eating all the bones."
+    ],
+    "locale": "en-AU"
+  },
+  "captions": {
+    "mode": "phrase",
+    "font": "Luckiest Guy",
+    "weight": 400,
+    "case": "upper",
+    "sizePct": 5.5,
+    "yPct": 77.8,
+    "maxWordsOnScreen": 1,
+    "fill": "#EDFA00",
+    "highlight": "#EDFA00",
+    "highlightBox": null,
+    "stroke": { "color": "#000000", "widthPct": 0.31 },
+    "shadow": null,
+    "enter": "none",
+    "lineHeight": 1.0,
+    "marginPct": 22,
+    "startAfterTitleCard": true,
+    "onTop": true
+  },
+  "graphics": {
+    "titleCard": true,
+    "titleCardSec": 3.9,
+    "titleCardStyle": {
+      "font": "handwriting",
+      "color": "#111111",
+      "yPct": [17, 27],
+      "byline": "✨ Explained by {mascot} ✨",
+      "bylineAtSec": 2.6,
+      "mascotScaleIn": { "durationSec": 2.4, "steppedFps": 10 }
+    },
+    "progressBar": false,
+    "progressBarColor": "#EDFA00",
+    "endCard": {
+      "font": "comic-caps-handwriting",
+      "color": "#111111",
+      "yPct": [18, 29],
+      "showForSec": 4
+    }
+  },
+  "scenes": {
+    "background": "#FFFFFF",
+    "camera": "none: no zooms or pans; change scale by cutting to a different mascot drawing",
+    "elementEnter": "cut",
+    "elementExit": "cut",
+    "syncToKeyword": { "leadFrames": 2 },
+    "animationFps": 10,
+    "idleLoop": { "kind": "boil", "frames": 2, "everySec": 0.22 },
+    "exceptions": [
+      "intro mascot scale-in",
+      "a single slide or merge per video to illustrate an operation (reference: two piles slide together for 'add both paychecks')"
+    ],
+    "propsBleedOffEdge": true
+  },
+  "mascot": {
+    "drawing": "hand-inked: thick dark outline, flat fills, no shading, cream chest",
+    "poses": [
+      { "pose": "standing", "use": "default narration, intro" },
+      { "pose": "pair", "use": "partner or relationship beats; the second character uses the same drawing with a small variation" },
+      { "pose": "closeup-arms-out", "use": "listing examples within a step; one card or sticker swapped above the head per example; arms boil" },
+      { "pose": "at-laptop", "use": "list / track / plan beats" },
+      { "pose": "thinking", "use": "payoff line" },
+      { "pose": "costume", "use": "a joke beat (reference: top hat and suit for 'spending money')" },
+      { "pose": "paw-raised", "use": "CTA" }
+    ]
+  },
+  "labels": {
+    "font": "handwriting",
+    "colors": { "cost": "#E5481F", "money": "#039F19", "text": "#111111", "check": "#E4161F" },
+    "textCard": { "ring": "metaphor doodles (reference: about 9 bones) that boil", "yPct": [40, 61] },
+    "speechBubble": true,
+    "commentPill": { "outline": "#7B2D8E", "icon": "chat", "use": "CTA keyword" },
+    "stickers": "flat icon-pack style objects (checklist, calendar badge, cheque) above the mascot",
+    "dataCard": "one realistic UI/data card at the top of the frame, swapped per example"
+  },
+  "layout": {
+    "topCardsPct": [14, 44],
+    "labelsPct": [27, 52],
+    "textCardPct": [40, 61],
+    "mascotFullBodyPct": [39, 71],
+    "mascotCloseupPct": [43, 100],
+    "propsPct": [50, 74],
+    "captionsPct": [75.5, 80]
+  },
+  "broll": { "ratio_pct": 0, "avg_clip_sec": 0 },
+  "audio": { "lufs": -14, "music_bed": false, "voiceover": "single narrator, wall to wall, breaths cut out" },
+  "grade": null
+}
