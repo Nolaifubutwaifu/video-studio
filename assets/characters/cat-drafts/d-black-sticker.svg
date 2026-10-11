@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+  <g id="sil">
+    <path d="M276 322 C 352 330, 362 230, 318 206" fill="none" stroke-width="26" stroke-linecap="round"/>
+    <path d="M126 160 L 116 70 L 184 126 Z M216 126 L 284 70 L 274 160 Z"/>
+    <path d="M118 334 C 96 250, 112 118, 200 118 C 288 118, 304 250, 282 334 Z"/>
+  </g>
+  <filter id="sh"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-opacity=".25"/></filter>
+</defs>
+<g filter="url(#sh)">
+  <use href="#sil" fill="#fff" stroke="#fff" stroke-width="30" stroke-linejoin="round"/>
+</g>
+<use href="#sil" fill="#23232B" stroke="#23232B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M132 146 L 128 96 L 166 128 Z M268 146 L 272 96 L 234 128 Z" fill="#4A3A4A"/>
+<path d="M136 196 C 146 176, 178 176, 186 196 C 178 214, 146 214, 136 196 Z" fill="#FFD23F"/>
+<path d="M214 196 C 222 176, 254 176, 264 196 C 254 214, 222 214, 214 196 Z" fill="#FFD23F"/>
+<ellipse cx="161" cy="196" rx="4.5" ry="14" fill="#111"/>
+<ellipse cx="239" cy="196" rx="4.5" ry="14" fill="#111"/>
+<path d="M192 226 L 208 226 L 200 235 Z" fill="#F08AA0"/>
+<path d="M200 235 q -7 9 -15 3 M200 235 q 7 9 15 3" fill="none" stroke="#777" stroke-width="3" stroke-linecap="round"/>
+<path d="M150 230 L 100 222 M150 240 L 104 250 M250 230 L 300 222 M250 240 L 296 250" stroke="#8a8a96" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M170 334 v -20 M230 334 v -20" stroke="#3a3a44" stroke-width="4" stroke-linecap="round"/>
+</svg>

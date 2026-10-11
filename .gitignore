@@ -46,6 +46,8 @@ __pycache__/
 # Contact sheets are frames of third-party videos. Derived descriptions
 # (profile.json / style-notes.md) are fine to commit; the frames are not.
 styles/*/frames/
+# Per-reference analysis output: stills and transcripts of third-party videos.
+styles/*/work/
 
 # ---- Explicitly KEPT (the committed style artifacts) ----
 !styles/**/profile.json

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs><filter id="wob" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="4.5"/></filter></defs>
+<g filter="url(#wob)" stroke="#3B2A20" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M120 300 L 8 268" stroke-width="44" fill="none"/>
+  <path d="M120 300 L 8 268" stroke="#F0A35E" stroke-width="34" fill="none"/>
+  <path d="M280 300 L 392 268" stroke-width="44" fill="none"/>
+  <path d="M280 300 L 392 268" stroke="#F0A35E" stroke-width="34" fill="none"/>
+  <path d="M110 410 C 112 320, 140 262, 200 262 C 260 262, 288 320, 290 410 Z" fill="#F0A35E"/>
+  <path d="M160 410 C 162 330, 175 290, 200 290 C 225 290, 238 330, 240 410 Z" fill="#FBE8CF" stroke="none"/>
+  <path d="M92 140 L 70 20 L 170 88 Z" fill="#F0A35E"/>
+  <path d="M230 88 L 330 20 L 308 140 Z" fill="#F0A35E"/>
+  <path d="M100 118 L 86 46 L 150 90 Z" fill="#F4A6A6" stroke="none"/>
+  <path d="M250 90 L 314 46 L 300 118 Z" fill="#F4A6A6" stroke="none"/>
+  <path d="M84 180 C 80 112, 130 80, 200 80 C 270 80, 320 112, 316 180 C 322 210, 300 252, 262 266 C 225 280, 175 280, 138 266 C 100 252, 78 210, 84 180 Z" fill="#F0A35E"/>
+  <path d="M180 92 q 4 22 0 38 M200 88 q 4 26 0 46 M220 92 q 4 22 0 38" stroke="#CC7A3A" stroke-width="7" fill="none"/>
+  <ellipse cx="200" cy="222" rx="46" ry="30" fill="#FBE8CF" stroke="none"/>
+  <circle cx="148" cy="178" r="20" fill="#2B1D14" stroke="none"/>
+  <circle cx="252" cy="178" r="20" fill="#2B1D14" stroke="none"/>
+  <circle cx="141" cy="170" r="7" fill="#fff" stroke="none"/>
+  <circle cx="245" cy="170" r="7" fill="#fff" stroke="none"/>
+  <path d="M188 204 L 212 204 L 200 217 Z" fill="#E07A7A" stroke-width="4"/>
+  <path d="M200 217 q -10 14 -22 6 M200 217 q 10 14 22 6" fill="none" stroke-width="4.5"/>
+  <path d="M150 220 L 96 212 M150 232 L 98 240 M250 220 L 304 212 M250 232 L 302 240" stroke-width="3" fill="none"/>
+</g>
+</svg>

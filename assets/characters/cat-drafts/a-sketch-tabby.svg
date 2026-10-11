@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs><filter id="wob" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="4.5"/></filter></defs>
+<g filter="url(#wob)" stroke="#3B2A20" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M292 238 C 345 228, 360 175, 330 128" fill="none" stroke-width="28"/>
+  <path d="M292 238 C 345 228, 360 175, 330 128" fill="none" stroke="#F0A35E" stroke-width="18"/>
+  <rect x="272" y="250" width="26" height="82" rx="13" fill="#D98B48"/>
+  <rect x="176" y="258" width="26" height="74" rx="13" fill="#D98B48"/>
+  <ellipse cx="220" cy="248" rx="88" ry="48" fill="#F0A35E"/>
+  <path d="M215 205 q 6 22 0 40 M245 204 q 6 22 0 40 M275 212 q 5 18 0 32" stroke="#CC7A3A" stroke-width="6" fill="none"/>
+  <ellipse cx="160" cy="258" rx="30" ry="34" fill="#FBE8CF" stroke="none"/>
+  <rect x="242" y="256" width="28" height="80" rx="14" fill="#F0A35E"/>
+  <rect x="146" y="262" width="28" height="74" rx="14" fill="#F0A35E"/>
+  <path d="M86 140 L 78 66 L 132 112 Z" fill="#F0A35E"/>
+  <path d="M150 108 L 196 66 L 196 140 Z" fill="#F0A35E"/>
+  <path d="M94 126 L 90 86 L 120 112 Z" fill="#F4A6A6" stroke="none"/>
+  <path d="M162 110 L 188 86 L 188 126 Z" fill="#F4A6A6" stroke="none"/>
+  <path d="M80 170 C 78 130, 105 112, 140 112 C 180 112, 204 132, 202 168 C 206 182, 196 206, 176 214 C 150 224, 120 224, 100 214 C 82 206, 74 186, 80 170 Z" fill="#F0A35E"/>
+  <path d="M126 122 q 3 14 0 24 M140 118 q 3 16 0 28 M154 122 q 3 14 0 24" stroke="#CC7A3A" stroke-width="5" fill="none"/>
+  <ellipse cx="138" cy="192" rx="26" ry="17" fill="#FBE8CF" stroke="none"/>
+  <circle cx="114" cy="166" r="10" fill="#2B1D14" stroke="none"/>
+  <circle cx="162" cy="166" r="10" fill="#2B1D14" stroke="none"/>
+  <circle cx="110" cy="162" r="3.5" fill="#fff" stroke="none"/>
+  <circle cx="158" cy="162" r="3.5" fill="#fff" stroke="none"/>
+  <path d="M131 182 L 145 182 L 138 190 Z" fill="#E07A7A" stroke-width="3"/>
+  <path d="M138 190 q -6 9 -14 4 M138 190 q 6 9 14 4" fill="none" stroke-width="3.5"/>
+  <path d="M100 190 L 62 184 M100 198 L 64 204 M176 190 L 214 184 M176 198 L 212 204" stroke-width="2.5" fill="none"/>
+  <path d="M140 336 h 40 M236 336 h 40" stroke-width="3" fill="none" opacity=".35"/>
+</g>
+</svg>
